@@ -46,12 +46,12 @@ while True:
     escolha = input().lower()
     
     if escolha == 's':
-        quantia = int(input('Qual quantia deseja sacar? :'\n))
+        quantia = float(input('Qual quantia deseja sacar? :'))
         saque(quantia)
         view()
         
     elif escolha == 'd':
-        quantia = int(input("Qual quantia você deseja depositar?"))
+        quantia = float(input("Qual quantia você deseja depositar?"))
         deposito(quantia)
         view()
         
